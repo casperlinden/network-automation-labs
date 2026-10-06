@@ -21,7 +21,8 @@ Hands-on network automation labs using Ansible and Cisco IOS XE.
 \- Back up an IOS XE running configuration
 
 \- Basic Git workflow for version Control
-- Use Python for basic Cisco IOS XE network scripting
+
+\-Use Python for basic Cisco IOS XE network scripting
 
 \- Retrieve and process interface data using RESTCONF and JSON
 

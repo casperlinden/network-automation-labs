@@ -10,9 +10,9 @@ Hands-on network automation labs using Ansible and Cisco IOS XE.
 
 
 
-\- Run operational commands using `cisco.ios.ios\_command`
+\- Run operational commands using `cisco.ios.ios\\\_command`
 
-\- Gather structured device facts using `cisco.ios.ios\_facts`
+\- Gather structured device facts using `cisco.ios.ios\\\_facts`
 
 \- Configure and remove an IOS XE MOTD banner
 
@@ -20,7 +20,10 @@ Hands-on network automation labs using Ansible and Cisco IOS XE.
 
 \- Back up an IOS XE running configuration
 
-\- Basic Git workflow for version control
+\- Basic Git workflow for version Control
+- Use Python for basic Cisco IOS XE network scripting
+
+\- Retrieve and process interface data using RESTCONF and JSON
 
 
 

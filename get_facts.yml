@@ -1,0 +1,16 @@
+---
+- name: Gather Cisco IOS XE facts
+  hosts: cat8k
+  gather_facts: false
+
+  tasks:
+    - name: Gather IOS facts
+      cisco.ios.ios_facts:
+
+    - name: Display selected facts
+      ansible.builtin.debug:
+        msg:
+          - "Hostname: {{ ansible_facts['net_hostname'] }}"
+          - "IOS version: {{ ansible_facts['net_version'] }}"
+          - "Model: {{ ansible_facts['net_model'] }}"
+          - "Serial number: {{ ansible_facts['net_serialnum'] }}"

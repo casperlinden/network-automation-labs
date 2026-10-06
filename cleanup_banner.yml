@@ -1,0 +1,10 @@
+---
+- name: Remove lab banner
+  hosts: cat8k
+  gather_facts: false
+
+  tasks:
+    - name: Remove MOTD banner
+      cisco.ios.ios_banner:
+        banner: motd
+        state: absent

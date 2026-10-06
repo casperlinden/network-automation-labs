@@ -1,0 +1,12 @@
+---
+- name: Configure a harmless banner
+  hosts: cat8k
+  gather_facts: false
+
+  tasks:
+    - name: Configure MOTD banner
+      cisco.ios.ios_banner:
+        banner: motd
+        text: |
+          Ansible lab - Casper
+        state: present

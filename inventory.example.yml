@@ -1,0 +1,7 @@
+all:
+  hosts:
+    cat8k:
+      ansible_host: devnetsandboxiosxec8k.cisco.com
+      ansible_user: casper.linden
+      ansible_network_os: cisco.ios.ios
+      ansible_connection: network_cli
